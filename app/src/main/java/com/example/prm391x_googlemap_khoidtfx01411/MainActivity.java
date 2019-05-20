@@ -25,13 +25,6 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MainActivity extends AppCompatActivity {
 
-    private GoogleMap myMap;
-    private ProgressDialog myProgress;
-    private static final String MYTAG = "MYTAG";
-    public static final int REQUEST_ID_ACCESS_COURSE_FINE_LOCATION = 100;
-
-    private Fragment mMapFragment;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
